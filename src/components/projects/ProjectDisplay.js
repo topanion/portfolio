@@ -21,7 +21,7 @@ export default function ProjectDisplay({
     : {};
 
   return (
-    <div className="grow w-full min-h-[30vh]" style={style}>
+    <div className="grow w-full md:h-[30vh] h-[35vh]" style={style}>
       {modalOpened && (
         <ProjectModal {...project} close={() => setModalOpened(false)} />
       )}
@@ -37,7 +37,7 @@ export default function ProjectDisplay({
         {/* closing background with details on project */}
 
         {hovered && (
-          <div className="w-full h-full flex">
+          <div className="w-full h-full flex max-md:text-sm">
             {/* content */}
 
             <div className="m-auto px-5 py-2 flex flex-col z-20 gap-6">
@@ -61,17 +61,17 @@ export default function ProjectDisplay({
         )}
       </div>
       {/* Images */}
-      <div className="relative px-3  h-full animate-fade-in pt-[5%] pb-[21%] z-10">
+      <div className="relative px-3 h-full animate-fade-in pt-[5%] pb-[21%] z-10">
         {large && (
           <img
-            className="w-[90%] shadow-xl rounded-md"
+            className="max-w-[90%] max-h-[30vh] shadow-xl rounded-md"
             src={large}
             alt="app on big screen"
           />
         )}
         {phone && (
           <img
-            className="absolute w-[27%] z-10 top-[25%] right-5 shadow-xl rounded-xl p-1 bg-slate-800"
+            className="absolute h-[65%] z-10 top-[25%] right-5 shadow-xl rounded-xl p-1 bg-slate-800"
             src={phone}
             alt="app on phone"
           />

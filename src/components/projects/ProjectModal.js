@@ -50,7 +50,11 @@ export default function ProjectModal({
             <div className="">
               <p className="font-semibold">Development Tools :</p>
               {tools?.map((e, i) => {
-                return <p className="py-1">· {e}</p>;
+                return (
+                  <p key={"tools" + title + i} className="py-1">
+                    · {e}
+                  </p>
+                );
               })}
             </div>
             {link && (
