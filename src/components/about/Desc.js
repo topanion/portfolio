@@ -1,0 +1,16 @@
+import Fact from "./Fact";
+
+export default function Desc() {
+  return (
+    <div className=" col-span-3  w-full grid lg:grid-cols-4 grid-cols-2 gap-6">
+      <Fact title={"Intuitive"}>Easy to use, intuitive UX/UI.</Fact>
+      <Fact title={"Responsive"}>
+        Will work on any device no matter the screen size.
+      </Fact>
+      <Fact title={"Dynamic"}>
+        Your page can be static, but does it have to ?
+      </Fact>
+      <Fact title={"Fast"}>Fast load times, high speed interactions.</Fact>
+    </div>
+  );
+}

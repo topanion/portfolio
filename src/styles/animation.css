@@ -1,0 +1,40 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes stretch {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes heightStretch {
+  from {
+    opacity: 0;
+    height: 0;
+  }
+  to {
+    opacity: 100;
+    height: 50%;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out; /* You can adjust the animation duration and timing function as per your preference */
+}
+
+.stretch-fade-in {
+  animation: stretch 0.3s ease-in-out;
+}
+
+.height-stretch {
+  animation: heightStretch 0.3s ease-in-out;
+}
