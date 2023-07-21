@@ -30,7 +30,7 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className="py-7 w-screen  bg-gradient-to-b from-gray-900 px-[5%]  md:px-[12%] lg:px-[20%] text-white"
+      className="py-7 pb-10 w-screen bg-slate-700 px-[5%]  md:px-[12%] lg:px-[20%] text-white"
     >
       <div className="w-full sm:flex sm:flex-col">
         <CenteredTitle addedClassname={"my-6 font-bold border-white"}>

@@ -41,9 +41,6 @@ export default function NavButtons({ onClick }) {
       >
         Contact Me
       </Link>
-      <div className="hover:cursor-pointer hover:scale-105 transition-all duration-300">
-        Socials
-      </div>
     </>
   );
 }

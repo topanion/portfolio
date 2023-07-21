@@ -27,6 +27,15 @@
   }
 }
 
+@keyframes heightStretch2 {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
 .animate-fade-in {
   animation: fadeIn 1s ease-in-out; /* You can adjust the animation duration and timing function as per your preference */
 }
@@ -37,4 +46,8 @@
 
 .height-stretch {
   animation: heightStretch 0.3s ease-in-out;
+}
+
+.height-stretch2 {
+  animation: heightStretch2 0.5s ease-in-out;
 }

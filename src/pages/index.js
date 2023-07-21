@@ -12,6 +12,7 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
+      <Contact />
     </main>
   );
 }

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { SlideIn } from "../animation/SlideIn";
+import Link from "next/link";
+import { handleScroll } from "../navbar/NavButtons";
 
 export default function Hero() {
   return (
@@ -17,9 +19,13 @@ export default function Hero() {
               <div>Full-Stack Developer in Paris</div>
             </SlideIn>
           </div>
-          <div className="hover:animate-pulse duration-300 transition-all hover:scale-105 border p-3 border-black text-xl text-center hover:cursor-pointer">
+          <Link
+            onClick={handleScroll}
+            href="#contact"
+            className="hover:animate-pulse duration-300 transition-all hover:scale-105 border p-3 border-black text-xl text-center hover:cursor-pointer"
+          >
             HIRE ME
-          </div>
+          </Link>
         </div>
         <div>
           <div className="shadow-xl relative lg:w-[30vw] lg:h-[30vw] w-[37vh] h-[37vh] rounded-full overflow-hidden">
