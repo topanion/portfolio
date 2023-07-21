@@ -16,7 +16,7 @@ export default function ProjectModal({
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="m-auto rounded-xl bg-white flex flex-col p-4 max-w-[90vw]"
+        className="m-auto rounded-xl bg-white flex flex-col p-4 max-w-[90vw] max-md:max-h-[80vh]"
       >
         {/* 
         <div className="overflow-hidden overflow-x-scroll w-full rounded-t-xl">
@@ -42,7 +42,7 @@ export default function ProjectModal({
           </div>
             </div>*/}
         <div className="flex flex-col gap-6 w-full p-5 text-black">
-          <div className="w-full justify-center flex text-2xl">
+          <div className="w-full justify-center flex md:text-2xl text-xl">
             <p className="border-b-2 border-black w-fit">{title}</p>
           </div>
           <div className="flex flex-col gap-6 max-md:text-sm">
