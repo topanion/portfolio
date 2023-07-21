@@ -9,15 +9,15 @@ export default function Contact() {
     >
       <div className="m-auto flex flex-col gap-6">
         <CenteredTitle addedClassname={"text-black"}>CONTACT</CenteredTitle>
-        {/* <form>
-          <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
+        <form>
+          <div className="flex flex-col">
             <input type="text" />
             <input type="text" />
             <input type="text" />
             <input type="text" />
             <input type="text" />
           </div>
-  </form> */}
+        </form>
         <div className="flex md:flex-row flex-col gap-1 md:gap-6">
           <ContactButton
             src="https://instagram.com/cailloumagique"
