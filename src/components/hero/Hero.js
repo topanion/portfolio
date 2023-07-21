@@ -3,7 +3,7 @@ import { SlideIn } from "../animation/SlideIn";
 
 export default function Hero() {
   return (
-    <div className="w-screen text-gray-600 h-[90vh] flex pt-[15vh] pb-[10vh] px-[5%] md:px-[12%] lg:px-[20%]">
+    <div className="w-screen text-gray-600 bg-gradient-to-b from-blue-400 h-[90vh] flex pt-[15vh] pb-[10vh] px-[5%] md:px-[12%] lg:px-[20%]">
       <div className="flex max-w-[80%] font-medium m-auto lg:flex-row flex-col gap-8">
         <div className="my-auto flex flex-col gap-6">
           <div className="relative">

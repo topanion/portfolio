@@ -16,7 +16,7 @@ export default function ProjectModal({
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="m-auto rounded-xl bg-white flex flex-col p-4"
+        className="m-auto rounded-xl bg-white flex flex-col p-4 max-w-[90vw]"
       >
         {/* 
         <div className="overflow-hidden overflow-x-scroll w-full rounded-t-xl">
