@@ -60,7 +60,7 @@ export default function ProjectModal({
             {link && (
               <div className="grow flex justify-center">
                 <a
-                  className="p-3 border border-black"
+                  className="md:p-3 p-1  border border-black"
                   href={link}
                   target="_blank"
                 >
