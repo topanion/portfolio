@@ -45,7 +45,7 @@ export default function ProjectModal({
           <div className="w-full justify-center flex text-2xl">
             <p className="border-b-2 border-black w-fit">{title}</p>
           </div>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 max-md:text-sm">
             <div className="">{description}</div>
             <div className="">
               <p className="font-semibold">Development Tools :</p>
