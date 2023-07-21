@@ -11,7 +11,7 @@ export default function ProjectModal({
 }) {
   return (
     <div
-      className={`animate-fade-in fixed z-50 top-0 left-0 w-screen h-screen bg-black/90 flex`}
+      className="transition-none fixed top-0 left-0 w-screen h-screen bg-black/90 flex z-50"
       onClick={close}
     >
       <div className="m-auto rounded-xl bg-white flex flex-col p-4 max-w-[90vw] max-md:max-h-[80vh]">

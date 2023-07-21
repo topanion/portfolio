@@ -39,4 +39,14 @@ export const nextProjects = [
     description:
       "A To-Do list but RPG-Style ! Manage your tasks so your character can gain Energy to train or go on an adventure !",
   },
+  {
+    large: "/truffes/interface_lg.jpg",
+    phone: "/truffes/search_phone.jpg",
+    title: "Truffes sans Toit",
+    background: "/truffes/bg.jpg",
+    link: "https://truffes.vercel.app/",
+    tools: ["Next JS", "React JS", "Supabase database", "Tailwind CSS"],
+    description:
+      "Web application for volunteers in an organization that matches abandoned animals and host families !",
+  },
 ];

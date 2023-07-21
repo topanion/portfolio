@@ -50,9 +50,7 @@ export default function Projects() {
                   className={`animate-fade-in w-full flex grow-0`}
                 >
                   <div className="relative h-full w-full m-auto">
-                    <SlideIn from={i % 2 === 0 ? "left" : "right"}>
-                    <ProjectDisplay {...e} project={...e} />
-                    </SlideIn>
+                    <ProjectDisplay {...e} project={...e} from={i % 2 === 0 ? "left" : "right"}/>
                   </div>
                 </div>
               );
