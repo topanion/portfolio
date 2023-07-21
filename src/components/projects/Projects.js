@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import ProjectDisplay from "./ProjectDisplay";
 import { nextProjects } from "@/content/projects/next";
 import { reactProjects } from "@/content/projects/react";
+import { SlideIn } from "../animation/SlideIn";
 
 const buttons = [
   {
@@ -49,7 +50,9 @@ export default function Projects() {
                   className={`animate-fade-in w-full flex grow-0`}
                 >
                   <div className="relative h-full w-full m-auto">
+                    <SlideIn from={i % 2 === 0 ? "left" : "right"}>
                     <ProjectDisplay {...e} project={...e} />
+                    </SlideIn>
                   </div>
                 </div>
               );

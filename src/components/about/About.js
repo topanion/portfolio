@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="bg-white w-screen py-[10vh] px-[5%] md:px-[12%] lg:px-[20%] flex flex-col gap-6"
+      className="w-screen py-[8vh] px-[5%] md:px-[12%] lg:px-[20%] flex flex-col gap-12"
     >
       <CenteredTitle addedClassname={"font-bold"}>ABOUT</CenteredTitle>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-3">

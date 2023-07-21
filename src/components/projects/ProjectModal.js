@@ -14,10 +14,7 @@ export default function ProjectModal({
       className={`animate-fade-in fixed z-50 top-0 left-0 w-screen h-screen bg-black/90 flex`}
       onClick={close}
     >
-      <div
-        onClick={(e) => e.stopPropagation()}
-        className="m-auto rounded-xl bg-white flex flex-col p-4 max-w-[90vw] max-md:max-h-[80vh]"
-      >
+      <div className="m-auto rounded-xl bg-white flex flex-col p-4 max-w-[90vw] max-md:max-h-[80vh]">
         {/* 
         <div className="overflow-hidden overflow-x-scroll w-full rounded-t-xl">
          <div
@@ -60,6 +57,7 @@ export default function ProjectModal({
             {link && (
               <div className="grow flex justify-center">
                 <a
+                  onClick={(e) => e.stopPropagation()}
                   className="md:p-3 p-1  border border-black"
                   href={link}
                   target="_blank"
