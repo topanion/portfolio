@@ -7,7 +7,7 @@ export default function Fact({ title, children, src, from }) {
     <SlideIn from={from}>
       <div className="flex flex-col gap-3 items-center">
         <div className="rounded-full p-3 border border-slate-600 w-fit h-auto">
-          <Image src={src} width={24} height={24} />
+          <Image src={src} width={24} height={24} alt={src} />
         </div>
         <FadeIn>
           <div className="text-2xl font-semibold">{title}</div>

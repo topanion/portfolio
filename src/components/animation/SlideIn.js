@@ -15,11 +15,9 @@ export function SlideIn({ children, from = "left" }) {
         if (entry.isIntersecting) {
           setIsVisible(true);
           observer.unobserve(ref.current);
-        } else if (isVisible) {
-          setIsVisible(false);
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.1 }
     );
     observer.observe(ref.current);
   }, []);
