@@ -28,7 +28,7 @@ export default function ProjectDisplay({
         <ProjectModal {...project} close={() => setModalOpened(false)} />
       )}
       <SlideIn from={from}>
-        <div className="grow w-full md:h-[30vh] h-[35vh]" style={style}>
+        <div className="w-full h-full" style={style}>
           <div
             onMouseEnter={() => {
               setHovered(true);
@@ -36,7 +36,7 @@ export default function ProjectDisplay({
             onMouseLeave={() => {
               setHovered(false);
             }}
-            className="absolute w-full h-full z-20 flex flex-col overflow-hidden"
+            className="absolute w-full h-full z-20 flex flex-col"
           >
             {/* closing background with details on project */}
 
@@ -59,8 +59,8 @@ export default function ProjectDisplay({
 
                 {/* bg part */}
 
-                <div className="absolute height-stretch bg-black/70 w-full h-[50%] top-0"></div>
-                <div className="absolute height-stretch bg-black/70 w-full h-[50%] bottom-0"></div>
+                <div className="absolute height-stretch bg-black/70 w-full h-[50%]"></div>
+                <div className="absolute height-stretch bg-black/70 w-full h-[50.28%] bottom-0"></div>
               </div>
             )}
           </div>

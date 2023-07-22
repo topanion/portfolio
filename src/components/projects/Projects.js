@@ -42,14 +42,14 @@ export default function Projects() {
             current={current}
             setCurrent={setCurrent}
           />
-          <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 max-md:gap-1">
+          <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 max-md:gap-1 grid-flow-row auto-rows-fr">
             {projects[current]?.map((e, i) => {
               return (
                 <div
                   key={"project " + i + " from ctg " + current}
-                  className={`animate-fade-in w-full flex grow-0`}
+                  className={`animate-fade-in w-full flex`}
                 >
-                  <div className="relative h-full w-full m-auto">
+                  <div className="relative h-full w-full">
                     <ProjectDisplay {...e} project={...e} from={i % 2 === 0 ? "left" : "right"}/>
                   </div>
                 </div>
