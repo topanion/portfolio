@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { StretchIn } from "../animation/StretchIn";
 
 export default function ProjectButtons({
   current,
@@ -11,17 +12,19 @@ export default function ProjectButtons({
     return (
       <div
         key={`project button ${i}`}
-        className={`flex flex-col hover:cursor-pointer font-semibold md:text-xl h-8
+        className={`flex flex-col hover:cursor-pointer font-semibold md:text-xl h-8 
         `}
         onClick={() => setCurrent(e.value)}
       >
         <div className="mx-auto">{e.button}</div>
         {current === e.value && (
-          <div className="stretch-fade-in border-b-2 border-white mt-1"></div>
+          <StretchIn>
+            <div className="border-b-2 border-gray-600 mt-1"></div>
+          </StretchIn>
         )}
       </div>
     );
   });
 
-  return <div className=" gap-2 flex flex-row">{buttons}</div>;
+  return <div className="max-md:px-[5%] gap-2 flex flex-row">{buttons}</div>;
 }

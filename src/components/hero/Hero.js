@@ -28,15 +28,17 @@ export default function Hero() {
           </Link>
         </div>
         <div>
-          <div className="shadow-xl relative lg:w-[30vw] lg:h-[30vw] w-[37vh] h-[37vh] rounded-full overflow-hidden">
-            <Image
-              priority={true}
-              fill
-              sizes="(max-width: 768px) 70vw, (max-width: 1200px) 50vw, 30vw"
-              src="/me.jpg"
-              alt="picture of the developer"
-            />
-          </div>
+          <SlideIn from={"right"}>
+            <div className="shadow-xl relative lg:w-[30vw] lg:h-[30vw] w-[37vh] h-[37vh] rounded-full overflow-hidden">
+              <Image
+                priority={true}
+                fill
+                sizes="(max-width: 768px) 70vw, (max-width: 1200px) 50vw, 30vw"
+                src="/me.jpg"
+                alt="picture of the developer"
+              />
+            </div>
+          </SlideIn>
         </div>
       </div>
     </div>

@@ -30,19 +30,19 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className="pb-10 w-screen bg-slate-700 px-[5%]  md:px-[12%] lg:px-[20%] text-white"
+      className="pb-10 w-screen bg-gradient-to-t from-blue-300 text-gray-600  md:px-[12%] lg:px-[20%]"
     >
       <div className="w-full sm:flex sm:flex-col">
-        <CenteredTitle addedClassname={"my-6 font-bold border-white"}>
+        <CenteredTitle addedClassname={"my-6 font-bold"}>
           WORKS
         </CenteredTitle>
-        <div className="w-full flex flex-col gap-6">
+        <div className="w-full flex flex-col gap-6 ">
           <ProjectButtons
             projectButtons={buttons}
             current={current}
             setCurrent={setCurrent}
           />
-          <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 max-md:gap-1 grid-flow-row auto-rows-fr">
+          <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-flow-row auto-rows-fr">
             {projects[current]?.map((e, i) => {
               return (
                 <div

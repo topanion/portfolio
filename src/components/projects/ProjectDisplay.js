@@ -41,10 +41,10 @@ export default function ProjectDisplay({
             {/* closing background with details on project */}
 
             {hovered && (
-              <div className="w-full h-full  flex md:text-sm max-md:text-xs">
+              <div className="w-full h-full  flex">
                 {/* content */}
 
-                <div className="h-full p-3 flex flex-col z-20 gap-6">
+                <div className="animate-fade-in h-full p-8 flex flex-col z-20 gap-1 text-slate-200">
                   <p>{title}</p>
                   <p>{description}</p>
                   <div className="grow flex justify-end">

@@ -37,7 +37,7 @@
 }
 
 .animate-fade-in {
-  animation: fadeIn 1s ease-in-out; /* You can adjust the animation duration and timing function as per your preference */
+  animation: fadeIn 0.7s ease-in-out; /* You can adjust the animation duration and timing function as per your preference */
 }
 
 .stretch-fade-in {
