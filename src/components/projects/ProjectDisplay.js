@@ -36,20 +36,20 @@ export default function ProjectDisplay({
             onMouseLeave={() => {
               setHovered(false);
             }}
-            className="absolute w-full h-full z-20 flex flex-col"
+            className="absolute w-full h-full z-20 flex flex-col overflow-hidden"
           >
             {/* closing background with details on project */}
 
             {hovered && (
-              <div className="w-full h-full flex max-md:text-sm">
+              <div className="w-full h-full  flex md:text-sm max-md:text-xs">
                 {/* content */}
 
-                <div className="m-auto px-5 py-2 flex flex-col z-20 gap-6">
+                <div className="h-full p-3 flex flex-col z-20 gap-6">
                   <p>{title}</p>
                   <p>{description}</p>
                   <div className="grow flex justify-end">
                     <div
-                      className="p-3 border border-white w-fit hover:cursor-pointer"
+                      className="p-3 border border-white w-fit h-fit hover:cursor-pointer"
                       onClick={() => setModalOpened(true)}
                     >
                       See more
@@ -60,7 +60,7 @@ export default function ProjectDisplay({
                 {/* bg part */}
 
                 <div className="absolute height-stretch bg-black/70 w-full h-[50%]"></div>
-                <div className="absolute height-stretch bg-black/70 w-full h-[50.28%] bottom-0"></div>
+                <div className="absolute height-stretch bg-black/70 w-full h-[50.25%] bottom-0"></div>
               </div>
             )}
           </div>

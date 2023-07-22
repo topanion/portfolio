@@ -5,7 +5,7 @@ export default function ContactButton({ src, name }) {
     <Link
       href={src}
       target="_blank"
-      className="relative p-3 border border-black text-black hover:cursor-pointer"
+      className="relative p-3 border hover:cursor-pointer"
     >
       {name}
     </Link>

@@ -5,18 +5,26 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="flex min-h-[50vh] w-screen  px-[5%]  md:px-[12%] lg:px-[20%]"
+      className="flex bg-gray-700 text-white
+       min-h-[50vh] w-screen py-7  px-[5%]  md:px-[12%] lg:px-[20%]"
     >
-      <div className="m-auto flex flex-col gap-6">
-        <CenteredTitle addedClassname={"text-black"}>CONTACT</CenteredTitle>
-        <form>
-          <div className="flex flex-col">
-            <input type="text" />
-            <input type="text" />
-            <input type="text" />
-            <input type="text" />
-            <input type="text" />
-          </div>
+      <div className="m-auto flex flex-col gap-6 w-full items-center">
+        <CenteredTitle addedClassname={"border-white"}>CONTACT</CenteredTitle>
+        <form className="flex flex-col gap-1 w-[80%] text-gray-300">
+          <input
+            className="p-2 rounded-md bg-gray-800 "
+            type="text"
+            placeholder="Name"
+          />
+          <input
+            className="p-2 rounded-md bg-gray-800 "
+            type="text"
+            placeholder="Email"
+          />
+          <textarea
+            className="p-2 rounded-md bg-gray-800 text-sm "
+            placeholder="Your message..."
+          />
         </form>
         <div className="flex md:flex-row flex-col gap-1 md:gap-6">
           <ContactButton
