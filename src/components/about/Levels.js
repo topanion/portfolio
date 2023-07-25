@@ -5,7 +5,8 @@ const skills = [
   { title: "HTML", percentage: "w-[90%]", color: "bg-blue-950/90" },
   { title: "React.js", percentage: "w-[80%]", color: "bg-blue-950/80" },
   { title: "Next.js", percentage: "w-[87%]", color: "bg-blue-950/70" },
-  { title: "Tailwind.css", percentage: "w-[95%]", color: "bg-blue-950/60" },
+  { title: "SEO", percentage: "w-[84%]", color: "bg-blue-950/60" },
+  { title: "Tailwind.css", percentage: "w-[95%]", color: "bg-blue-950/50" },
 ];
 
 function Level({ title, percentage, color }) {
