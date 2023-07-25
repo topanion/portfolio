@@ -1,4 +1,4 @@
-import CenteredTitle from "../CenteredTitle";
+import CenteredTitle from "../utils/CenteredTitle";
 import ProjectButtons from "./ProjectButtons";
 import { useEffect, useState } from "react";
 import ProjectDisplay from "./ProjectDisplay";
@@ -49,7 +49,7 @@ export default function Projects() {
                   key={"project " + i + " from ctg " + current}
                   className={`animate-fade-in w-full flex`}
                 >
-                  <div className="relative h-full w-full">
+                  <div className="relative h-full w-full max-md:px-[5%]">
                     <ProjectDisplay {...e} project={...e} from={i % 2 === 0 ? "left" : "right"}/>
                   </div>
                 </div>

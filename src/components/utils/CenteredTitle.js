@@ -1,4 +1,4 @@
-import { FadeIn } from "./animation/FadeIn";
+import { FadeIn } from "../animation/FadeIn";
 
 export default function CenteredTitle({ children, addedClassname }) {
   return (

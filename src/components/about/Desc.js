@@ -4,7 +4,7 @@ import Fact from "./Fact";
 export default function Desc() {
   return (
     <>
-      <div className="">{factText}</div>
+      <div className="text-sm">{factText}</div>
       <div className=" col-span-3  w-full grid lg:grid-cols-4 grid-cols-2 gap-6">
         <Fact title={"Intuitive"} src="/icons/intuitive.png">
           Easy to use, intuitive UX/UI.

@@ -1,4 +1,4 @@
-import CenteredTitle from "../CenteredTitle";
+import CenteredTitle from "../utils/CenteredTitle";
 import { StretchIn } from "../animation/StretchIn";
 import Desc from "./Desc";
 import { useState } from "react";

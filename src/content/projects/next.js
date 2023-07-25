@@ -15,7 +15,12 @@ export const nextProjects = [
       "Row Level Security Communication with the database",
     ],
     link: "https://social-date.vercel.app",
-    gallery: ["/Social/Post.jpg", "/Social/convo_lg.jpg", "/Social/feed.jpg"],
+    gallery: [
+      "/Social/profile.jpg",
+      "/Social/post.jpg",
+      "/Social/convo_lg.jpg",
+      "/Social/feed.jpg",
+    ],
     description:
       "A social media application where you can post anything, like and share anything, and connect to anyone with the message and notifications system.",
   },
@@ -36,6 +41,11 @@ export const nextProjects = [
       "Tailwind CSS",
       "Row Level Security Communication with the database",
     ],
+    gallery: [
+      "/task_quest/todo.jpg",
+      "/task_quest/creation.jpg",
+      "/task_quest/adventure1.jpg",
+    ],
     description:
       "A To-Do list but RPG-Style ! Manage your tasks so your character can gain Energy to train or go on an adventure !",
   },
@@ -45,6 +55,11 @@ export const nextProjects = [
     title: "Truffes sans Toit",
     background: "/truffes/bg.jpg",
     link: "https://truffes.vercel.app/",
+    gallery: [
+      "/truffes/search_phone.jpg",
+      "/truffes/interface_lg.jpg",
+      "/truffes/accueil_phone.jpg",
+    ],
     tools: ["Next JS", "React JS", "Supabase database", "Tailwind CSS"],
     description:
       "Web application for volunteers in an organization that matches abandoned animals and host families !",

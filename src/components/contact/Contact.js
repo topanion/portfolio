@@ -1,4 +1,4 @@
-import CenteredTitle from "../CenteredTitle";
+import CenteredTitle from "../utils/CenteredTitle";
 import ContactButton from "./ContactButton";
 
 export default function Contact() {
@@ -55,12 +55,6 @@ export default function Contact() {
        w-screen py-5 px-[5%]  md:px-[12%] lg:px-[20%] border-t border-white"
       >
         <div className="w-full flex flex-row gap-1 md:gap-6 justify-center">
-          <ContactButton
-            src="https://instagram.com/cailloumagique"
-            name="Instagram"
-          />
-          <ContactButton src="mailto:nj-cs@hotmail.fr" name="Mail" />
-
           <ContactButton src="https://github.com/topanion" name="Github" />
         </div>
         <div className="text-center text-slate-600 font-light">
