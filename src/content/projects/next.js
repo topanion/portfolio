@@ -17,7 +17,7 @@ export const nextProjects = [
     link: "https://social-date.vercel.app",
     gallery: [
       "/Social/profile.jpg",
-      "/Social/post.jpg",
+      "/Social/Post.jpg",
       "/Social/convo_lg.jpg",
       "/Social/feed.jpg",
     ],

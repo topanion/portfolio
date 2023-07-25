@@ -6,6 +6,7 @@ export default function Slider({ image }) {
       <Image
         src={image}
         fill
+        sizes="(max-width: 768px) 70vw, (max-width: 1200px) 50vw, 30vw"
         className="shadow-xl"
         objectFit="contain"
         alt={"display example for " + image}
