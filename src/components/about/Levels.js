@@ -8,7 +8,7 @@ const skills = [
   { title: "Javascript", percentage: "w-[100%]", color: "bg-blue-950/60" },
   { title: "TypeScript", percentage: "w-[85%]", color: "bg-blue-950/50" },
   { title: "Tailwind.css", percentage: "w-[95%]", color: "bg-blue-950/40" },
-  { title: "SEO", percentage: "w-[95%]", color: "bg-blue-950/30" },
+  { title: "SEO", percentage: "w-[87%]", color: "bg-blue-950/30" },
 ];
 
 function Level({ title, percentage, color }) {
